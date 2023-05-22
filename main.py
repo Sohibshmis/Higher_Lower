@@ -32,7 +32,7 @@ def higherOrlower(higher=0, x=0):
         country = options[x]['country']
         if count == 1:
             print(vs)
-            print(f"Compare B: {name}, a {description} from {country}.")
+            print(f"Against B: {name}, a {description} from {country}.")
         else:
             print(f"Compare A: {name}, a {description} from {country}.")
         count += 1
